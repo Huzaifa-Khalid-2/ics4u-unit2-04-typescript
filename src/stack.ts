@@ -38,7 +38,7 @@ class Stack {
     if (this.stackList.length === 0) {
       console.log('cannot get the peak, no number given')
     } else {
-      console.log(`The peek is: ${this.stackList[0]}`)
+      console.log(`The peek is: ${this.stackList[0-1]}`)
     }
   }
 }
